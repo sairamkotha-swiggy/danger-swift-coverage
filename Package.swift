@@ -12,7 +12,7 @@ let package = Package(
             targets: ["DangerSwiftCoverage"]
         ),
         .library(name: "DangerDeps", type: .dynamic, targets: ["DangerDependencies"]), // dev
-        .executable(name: "danger-swift", targets: ["DangerSwiftCoverage"]),
+        .executable(name: "danger-swift-coverage", targets: ["DangerSwiftCoverage"]),
     ],
     dependencies: [
         .package(url: "https://github.com/danger/swift.git", from: "2.0.0"),
